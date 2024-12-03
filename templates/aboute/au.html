@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="{% static 'style1.css' %}" />
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">TANZIM</a>
+        <nav class="navbar">
+            <a href="#profile">Profile</a>
+            <a href="#portfolio">Portfolio</a>
+        </nav>
+    </header>
+
+    
+    <section id="profile" class="profile">
+        <div class="profile-container">
+            <img src="{% static 'img.jpg' %}" alt="Profile Picture" class="profile-pic">
+            <h2>Tanzim Hasan Rizbi</h2>
+            <p>Back-end Developer | Flutter Developer | CSE Student</p>
+            <p>A passionate back-end developer with experience in creating dynamic websites and applications.</p>
+            
+    <section class="contact-info">
+            <h3>Contact Information:</h3>
+            <ul>
+                <li>Email: <a href="mailto:tanzimhasanrizbi@gmail.com">tanzimhasanrizbi@gmail.com</a></li>
+                <li>Phone: 01872164554</li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/tanzim-hasan-rizbi" target="_blank">Tanzim Hasan Rizbi</a></li>
+            </ul>
+            <h3>Programming Languages:</h3>
+            <ul>
+                <li>Python</li>
+                <li>C++</li>
+                <li>Django</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Dart</li>
+            </ul>
+            
+    </section>  
+        
+        </div>
+    </section>
+   
+    
+    <section id="portfolio" class="portfolio">
+        <h2>My Portfolio</h2>
+        <div class="portfolio-items">
+            <div class="portfolio-item">
+                <img src="{% static 'img.jpg' %}" alt="Project 1">
+                <h3>Project 1</h3>
+                <p>Short description of Project 1.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="{% static 'img.jpg' %}" alt="Project 2">
+                <h3>Project 2</h3>
+                <p>Short description of Project 2.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="{% static 'img.jpg' %}" alt="Project 3">
+                <h3>Project 3</h3>
+                <p>Short description of Project 3.</p>
+            </div>
+        </div>
+    </section>
+    
+</body>
+
+</html>
